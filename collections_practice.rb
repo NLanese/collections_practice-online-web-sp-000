@@ -54,3 +54,23 @@ def find_a(array)
   end
   return rArray
 end
+
+def sum_array(array)
+  total = 0
+  array.each do | val |
+    total = total + val
+  end
+  return total
+end
+
+
+
+
+
+
+
+
+
+
+
+    
