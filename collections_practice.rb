@@ -35,3 +35,23 @@ def reverse_array(array)
   end
   return rArray
 end
+
+def kesha_maker(array)
+  rArray = []
+  array.each do | word |
+    splitWord = word.split
+    splitWord[2] = '$'
+    rArray << splitWord
+  end 
+  return rArray
+end 
+
+
+
+
+
+
+
+
+
+
