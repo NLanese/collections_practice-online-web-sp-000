@@ -44,3 +44,14 @@ def kesha_maker(array)
   end
   return rArray
 end
+
+def find_a(array)
+  rArray = []
+  array.each do | word |
+    if (word.starts_with("a"))
+      rArray << word
+    end
+  end
+  return rArray
+end
+
