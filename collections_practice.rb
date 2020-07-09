@@ -39,9 +39,7 @@ end
 def kesha_maker(array)
   rArray = []
   array.each do | word |
-    splitWord = word.split
     splitWord[2] = '$'
-    splitWord.join
     rArray << splitWord
   end
   return rArray
