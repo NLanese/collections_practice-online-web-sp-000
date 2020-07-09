@@ -11,3 +11,10 @@ def sort_array_desc(array)
   end
   return rArray
 end
+
+def sort_array_char_count(array)
+  rArray = array.sort do | x , y |
+    x.length <=> y.length
+  end
+  return rArray
+end
