@@ -23,4 +23,5 @@ def swap_elements(array)
   storedVal = array[1]
   array[1] = array [2]
   array[2] = storedVal
+  return array
 end
