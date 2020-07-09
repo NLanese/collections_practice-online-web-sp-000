@@ -25,3 +25,14 @@ def swap_elements(array)
   array[2] = storedVal
   return array
 end
+
+def reverse_array(array)
+  len = array.length
+  rArray = []
+  while len >= 0
+    rArray << array[len]
+    len = len - 1
+  end
+  return rArray
+end
+
