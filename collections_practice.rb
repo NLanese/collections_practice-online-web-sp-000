@@ -35,4 +35,3 @@ def reverse_array(array)
   end
   return rArray
 end
-
