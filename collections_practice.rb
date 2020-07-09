@@ -48,7 +48,7 @@ end
 def find_a(array)
   rArray = []
   array.each do | word |
-    if (word.starts_with("a"))
+    if (word.starts_with?("a"))
       rArray << word
     end
   end
