@@ -63,7 +63,18 @@ def sum_array(array)
   return total
 end
 
-
+def add_s(array)
+  rArray = []
+  array.each do | word |
+    if (word == "feet")
+      rArray << word
+    else
+      word = word + "s"
+      rArray << word
+    end
+  end
+  return rArray
+end
 
 
 
